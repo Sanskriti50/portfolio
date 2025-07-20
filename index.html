@@ -1,92 +1,53 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaishnavi | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+</head>
+<body>
 
-body {
-  font-family: 'Poppins', sans-serif;
-  background: #fff;
-  color: #333;
-  line-height: 1.6;
-  padding: 60px 40px;
-}
+  <section class="portfolio">
+    <!-- intro -->
+    <div class="left">
+      <h1>Hi, I’m <span>Vaishnavi</span></h1>
+      <p>
+        I’m a Computer Science Engineering student deeply passionate about Artificial Intelligence and Machine Learning.
+        I’m constantly learning, experimenting.
+      </p>
 
-/* Layout */
-.portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 100px;
-}
+      <div class="info-columns">
+        <!-- Skills section -->
+        <div>
+          <h3>Skills</h3>
+          <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>Python</li>
+          </ul>
+        </div>
 
-/* intro */
-.left {
-  flex: 1;
-  min-width: 300px;
-  max-width: 700px;
-}
+        
+        <div>
+          <h3>Projects</h3>
+          <ul>
+            <li>Weather App (HTML/CSS/JS)</li>
+            <li>AI Chatbot (Python)</li>
+            <li>Portfolio Website</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-.left h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
+    <!-- Right Side -->
+    <div class="right">
+      <div class="photo-box">
+        <img src="photo.jpg" alt="my Photo" />
+      </div>
+    </div>
+  </section>
 
-.left h1 span {
-  color: #bb68f3;
-}
-
-.left p {
-  font-size: 1rem;
-  margin-bottom: 30px;
-  color: #444;
-}
-
-/* Info Columns */
-.info-columns {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-
-.info-columns > div {
-  flex: 1;
-  min-width: 200px;
-}
-
-.info-columns h3 {
-  font-size: 1.1rem;
-  margin-bottom: 10px;
-  color: #e91e63;
-}
-
-.info-columns ul {
-  list-style: none;
-  padding: 0;
-}
-
-.info-columns li {
-  margin-bottom: 8px;
-}
-
-/* pic */
-.right {
-  flex: 1;
-  min-width: 560px;
-  text-align: center;
-}
-
-.photo-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.photo-box img {
-  width: 400px;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-  margin-bottom: 10px;
-}
+</body>
+</html>
